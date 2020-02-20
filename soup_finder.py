@@ -453,7 +453,232 @@ all_soups = {
                 'price'      : 220,
                 'ing1'       : 'oxygrass',
                 'ing2'       : 'oxygrass'
-    }
+    },
+    'wattlecap'   : {
+            'price'      : 30,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'bluecap'
+    },
+    'chicken_of_the_cave'       : {
+            'price'      : 140,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'greenstalk'
+    },
+    'full-bodied_fryer'  : {
+            'price'      : 300,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'poisonpuff'
+    },
+    'hungry_hen'  : {
+            'price'      : 150,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'stabgrass'
+    },
+    'chicken_noodle_cluster'     : {
+            'price'      : 160,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'tsutavine'
+    },
+    'brinebird_bouillon' : {
+            'price'      : 170,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'brinewood'
+    },
+    'chicken_feed'  : {
+            'price'      : 270,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'corn_shell'
+    },
+    'parmesan_potage'  : {
+            'price'      : 200,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'tomaty_steak'
+    },
+    'squid_smuggler'  : {
+            'price'      : 140,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'squidfly_chunk'
+    },
+    'mixed_berry_broth'  : {
+            'price'      : 320,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'strawburi_filet'
+    },
+    'chicken_royale'  : {
+            'price'      : 190,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'pinapurana_filet'
+    },
+        'pollo_peligroso'  : {
+                'price'      : 400,
+                'ing1'       : 'chickenberry',
+                'ing2'       : 'kabo_chunk'
+    },
+        'rooster_rocket'  : {
+                'price'      : 90,
+                'ing1'       : 'chickenberry',
+                'ing2'       : 'oxygrass'
+    },
+            'two_piece_twister'  : {
+                    'price'      : 160,
+                    'ing1'       : 'chickenberry',
+                    'ing2'       : 'chickenberry'
+    },
+    'woodland_spike'   : {
+            'price'      : 170,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'bluecap'
+    },
+    'stellar_shroom'       : {
+            'price'      : 300,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'greenstalk'
+    },
+    'gouger_gruel'  : {
+            'price'      : 40,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'poisonpuff'
+    },
+    'cosmic_nettle'  : {
+            'price'      : 100,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'stabgrass'
+    },
+    'prickle_pickle'     : {
+            'price'      : 120,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'tsutavine'
+    },
+    'submarine_stinger' : {
+            'price'      : 130,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'brinewood'
+    },
+    'choppy_chowder'  : {
+            'price'      : 210,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'corn_shell'
+    },
+    'redspine_stew'  : {
+            'price'      : 140,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'tomaty_steak'
+    },
+    'cosmo_kraken'  : {
+            'price'      : 220,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'squidfly_chunk'
+    },
+    'blowfish_bisque'  : {
+            'price'      : 120,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'strawburi_filet'
+    },
+    'prickly_pine'  : {
+            'price'      : 20,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'pinapurana_filet'
+    },
+        'snarecrow'  : {
+                'price'      : 140,
+                'ing1'       : 'chickenberry',
+                'ing2'       : 'kabo_chunk'
+    },
+        'puncture_punch'  : {
+                'price'      : 200,
+                'ing1'       : 'thornstalk',
+                'ing2'       : 'oxygrass'
+    },
+            'danger_drumstick'  : {
+                    'price'      : 50,
+                    'ing1'       : 'thornstalk',
+                    'ing2'       : 'chickenberry'
+    },
+                'thick_thorn_stew'  : {
+                        'price'      : 20,
+                        'ing1'       : 'thornstalk',
+                        'ing2'       : 'thornstalk'
+    },
+    'wildbloom'   : {
+            'price'      : 180,
+            'ing1'       : 'thornbloom',
+            'ing2'       : 'bluecap'
+    },
+    'natural_low'       : {
+            'price'      : 30,
+            'ing1'       : 'thornbloom',
+            'ing2'       : 'greenstalk'
+    },
+    'nutrient_nova'  : {
+            'price'      : 500,
+            'ing1'       : 'thornbloom',
+            'ing2'       : 'poisonpuff'
+    },
+    'ochre_orchid'  : {
+            'price'      : 180,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'stabgrass'
+    },
+    'prickle_pickle'     : {
+            'price'      : 120,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'tsutavine'
+    },
+    'submarine_stinger' : {
+            'price'      : 130,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'brinewood'
+    },
+    'choppy_chowder'  : {
+            'price'      : 210,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'corn_shell'
+    },
+    'redspine_stew'  : {
+            'price'      : 140,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'tomaty_steak'
+    },
+    'cosmo_kraken'  : {
+            'price'      : 220,
+            'ing1'       : 'chickenberry',
+            'ing2'       : 'squidfly_chunk'
+    },
+    'blowfish_bisque'  : {
+            'price'      : 120,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'strawburi_filet'
+    },
+    'prickly_pine'  : {
+            'price'      : 20,
+            'ing1'       : 'thornstalk',
+            'ing2'       : 'pinapurana_filet'
+    },
+        'snarecrow'  : {
+                'price'      : 140,
+                'ing1'       : 'chickenberry',
+                'ing2'       : 'kabo_chunk'
+    },
+        'puncture_punch'  : {
+                'price'      : 200,
+                'ing1'       : 'thornstalk',
+                'ing2'       : 'oxygrass'
+    },
+            'danger_drumstick'  : {
+                    'price'      : 50,
+                    'ing1'       : 'thornstalk',
+                    'ing2'       : 'chickenberry'
+    },
+                'thick_thorn_stew'  : {
+                        'price'      : 20,
+                        'ing1'       : 'thornstalk',
+                        'ing2'       : 'thornstalk'
+    },
+                'thick_thorn_stew'  : {
+                        'price'      : 20,
+                        'ing1'       : 'thornstalk',
+                        'ing2'       : 'thornstalk'
+    },
 }
 
 # Create list of all potential ingredients by combining ing1 and ing2 and removing duplicates
