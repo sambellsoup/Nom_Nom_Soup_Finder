@@ -1073,7 +1073,8 @@ for soup, soup_info in all_soups.items():
 message = "\n\nPlease input your ingredients as they are discovered. The undiscovered ingredients are: " + "\n\n" + str(undiscovered_ingredients)
 message += "\n\nEnter 'quit' to end program or 'new' to start over.\n"
 message += "\n\nIngredient: "
-available_ingredients = []
+available_ingredients1 = []
+available_ingredients2 = []
 while True:
     discovered_ingredient = input(message)
     if discovered_ingredient == 'quit':
@@ -1085,17 +1086,21 @@ while True:
     # Reinitialize list from dictionary
             if soup_info['ing1'] not in undiscovered_ingredients:
                 undiscovered_ingredients.append(soup_info['ing1'])
-        available_ingredients = []
+        available_ingredients1 = []
+        available_ingredients2 = []
     # Add new ingredients to list of available ingredients
-    elif discovered_ingredient not in available_ingredients:
-        available_ingredients.append(discovered_ingredient)
+    if discovered_ingredient not in available_ingredients1:
+        available_ingredients1.append(discovered_ingredient)
+        undiscovered_ingredients.remove(discovered_ingredient)
+    if discovered_ingredient not in available_ingredients2:
+        available_ingredients2.append(discovered_ingredient)
         for soup_id, soup_info in all_soups.items():
-            for ingredient in available_ingredients:
-                if ingredient == soup_info['ing1'] and ingredient == soup_info['ing2']:
+            all_combos = [(x,y) for x in available_ingredients1 for y in available_ingredients2]
+            for combo in all_combos:
+                if combo[0] == soup_info['ing1'] and combo[1] == soup_info['ing2']:
                     print("\n" + str(soup_id) + ':', soup_info['price'], soup_info['ing1'], soup_info['ing2'])
-                # elif ingredient == soup_info['ing2']:
-                    # print("\n" + str(soup_id) + ':', soup_info['price'], soup_info['ing1'], soup_info['ing2'])
-        print("\t\nYour available ingredients are: " + str(available_ingredients) + "\n")
+    # print("All possible combinations: " + str(all_combos))
+    print("\t\nYour available ingredients are: " + str(available_ingredients1) + "\n")
 
 # Remove discovered_ingredient from undiscovered_ingredients
 #  Sort by price from highest to lowest
