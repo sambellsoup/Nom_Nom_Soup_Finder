@@ -1070,12 +1070,13 @@ for soup, soup_info in all_soups.items():
         # print(key + ':', p_info[key])
 
 # Input ingredients as they are found and remove that ingredient from ingredient_list
-message = "\n\nPlease input your ingredients as they are discovered. The undiscovered ingredients are: " + "\n\n" + str(undiscovered_ingredients)
-message += "\n\nEnter 'quit' to end program or 'new' to start over.\n"
-message += "\n\nIngredient: "
 available_ingredients1 = []
 available_ingredients2 = []
+
 while True:
+    message = "\n\nPlease input your ingredients as they are discovered. The undiscovered ingredients are: " + "\n\n" + str(undiscovered_ingredients)
+    message += "\n\nEnter 'quit' to end program or 'new' to start over.\n"
+    message += "\n\nIngredient: "
     discovered_ingredient = input(message)
     if discovered_ingredient == 'quit':
         break
@@ -1094,6 +1095,7 @@ while True:
         undiscovered_ingredients.remove(discovered_ingredient)
     if discovered_ingredient not in available_ingredients2:
         available_ingredients2.append(discovered_ingredient)
+        # Create all possible combinations and match them to possible soup combos
         for soup_id, soup_info in all_soups.items():
             all_combos = [(x,y) for x in available_ingredients1 for y in available_ingredients2]
             for combo in all_combos:
