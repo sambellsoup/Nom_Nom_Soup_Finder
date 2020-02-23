@@ -1081,7 +1081,7 @@ while True:
     if discovered_ingredient == 'quit':
         break
     # Add option to reinitialize program with new game
-    elif discovered_ingredient == 'new':
+    if discovered_ingredient == 'new':
         undiscovered_ingredients = []
         for soup, soup_info in all_soups.items():
     # Reinitialize list from dictionary
@@ -1104,15 +1104,7 @@ while True:
     # print("All possible combinations: " + str(all_combos))
     print("\t\nYour available ingredients are: " + str(available_ingredients1) + "\n")
 
-# Remove discovered_ingredient from undiscovered_ingredients
 #  Sort by price from highest to lowest
-# for soup in all_soups:
-    # print(soup['price'])
-    # [available_soups] = [soup['price']]
-    # print(available_soups)
-
-# Output list of soups available to make and then prompt for more ingredient input
-
 # Features to add and bugs to fix:
 # fix duplicate inputs logic
 # program remove ingredient feature
