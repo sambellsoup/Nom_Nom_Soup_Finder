@@ -1087,8 +1087,8 @@ while True:
     # Reinitialize list from dictionary
             if soup_info['ing1'] not in undiscovered_ingredients:
                 undiscovered_ingredients.append(soup_info['ing1'])
-        available_ingredients1 = []
-        available_ingredients2 = []
+        available_ingredients1.clear()
+        available_ingredients2.clear()
     # Add new ingredients to list of available ingredients
     if discovered_ingredient not in available_ingredients1:
         available_ingredients1.append(discovered_ingredient)
